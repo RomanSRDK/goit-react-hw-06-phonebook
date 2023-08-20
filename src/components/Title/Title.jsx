@@ -6,6 +6,7 @@ const Title = ({ text }) => {
         <h2 className={styles.title}>{text}</h2>
     )
 }
+
 Title.propTypes = {
     text:PropTypes.string.isRequired,
 }

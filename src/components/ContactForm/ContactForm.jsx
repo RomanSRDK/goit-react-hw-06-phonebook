@@ -8,8 +8,8 @@ const ContactForm = () => {
   const [number, setNumber] = useState('');
   const dispatch = useDispatch();
 
-  const handleChanger = event => {
-    const { name, value } = event.target;
+  const handleChanger = ({target}) => {
+    const { name, value } = target;
     switch (name) {
       case 'name':
         setName(value);

@@ -14,6 +14,7 @@ export default function ContactListItem({ id, name, number }) {
     </li>
   );
 }
+
 ContactListItem.propTypes = {
   id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,

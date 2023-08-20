@@ -32,5 +32,5 @@ export const store = configureStore({
   logger,
   devTools: process.env.NODE_ENV === 'development',
 });
+
 export const persistor = persistStore(store);
-// export default { store, persistor };
